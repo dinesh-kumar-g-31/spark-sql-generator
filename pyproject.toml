@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling>=1.26.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "spark_sql_generator"
+version = "0.0.2"
+authors = [
+  { name="DINESH KUMAR G", email="dineshkumarbe1331@gmail.com" },
+]
+description = "This module generates SQL DDL statements for schema modifications in database tables, with special support for complex nested data structures."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "sqlglot"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+keywords = [
+    "SQL",
+    "DDL",
+    "SCHEMA",
+    "SPARK",
+    "NESTED_STRUCTURES",
+    "PATH_HANDLING",
+    "CODE_GENERATION",
+    "FIELD_ORDERING",
+    "ARRAY_PROCESSING",
+    "STRUCT_FORMATTING",
+]
+
+[project.urls]
+Homepage = "https://github.com/dinesh-kumar-g-31/spark-sql-generator.git"
+Issues = "https://github.com/dinesh-kumar-g-31/spark-sql-generator/issues"
